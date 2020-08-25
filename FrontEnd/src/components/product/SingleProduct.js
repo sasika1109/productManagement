@@ -48,7 +48,7 @@ export default class SingleProduct extends Component {
                                 <p className="small-font">Description: {this.state.description}</p>
                                 <p className="small-font">Quantity: {this.state.quantity}</p>
                                 <p className="small-font">Added by: {this.state.user_id.firstName} {this.state.user_id.lastName} </p>
-                                <Link to="/products">
+                                <Link to="/">
                                 <button type="submit" className="button-go-back">GO BACK</button>
                                 </Link>
                                 

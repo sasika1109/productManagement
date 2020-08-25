@@ -24,10 +24,6 @@ export default class Events extends Component {
 
     }
 
-    onView(ID) {
-        this.props.history.push(`/product/view/${ID}`);
-    }
-
     onEdit(ID) {
         this.props.history.push(`/product/edit/${ID}`);
     }
@@ -69,8 +65,6 @@ export default class Events extends Component {
                                     <p className="small-font">Description: {product.description}</p>
                                     <p className="small-font">Quantity: {product.quantity}</p>
                                     <p className="small-font">Added by: {product.user_id.firstName} {product.user_id.lastName}</p>
-
-                                    <button className="btn-products" onClick={() => this.onView(product._id)}>VIEW</button>
                                     <button className="btn-products" onClick={() => this.onEdit(product._id)}>EDIT</button>
                                     <button className="btn-products-delete" onClick={() => this.onDelete(product._id)}>DELETE</button>
 
