@@ -1,0 +1,170 @@
+.landing-page-all-products .col-md-4 {
+    margin-bottom: 20px;
+}
+
+.left-panel-title-blue {
+    color: #6752D9;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.landing-page-container {
+    padding: 20px 0;
+}
+
+.landing-page-image {
+    width: 80%;
+}
+
+.hero-text {
+    position: relative;
+    top: 50px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+
+.image-col {
+    text-align: right;
+}
+
+.landing-page-all-products {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.landing-page-all-products h2 {
+    text-align: center;
+    color: #6752D9;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.landing-page-product-card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    height: 100%;
+}
+
+.landing-page-product-card p {
+    margin: 0;
+}
+
+.landing-page-all-products .col-md-3 {
+    margin-bottom: 20px;
+}
+
+.landing-page-product-card .title {
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.landing-page-product-card .organiser {
+    margin-bottom: 15px;
+    
+}
+
+.landing-page-product-card .small-font {
+    font-size: 12px;
+    color: #6752D9;
+    font-weight: 700;
+}
+
+.landing-page-product-card .description {
+    margin-bottom: 20px;
+}
+
+.btn-products {
+    background-color: #6752D9;
+    color: #fff;
+    font-weight: 200;
+    border: 2px solid #6752D9;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 0;
+    border-radius: 50px;
+    width: 70px;
+}
+
+.auth-buttons {
+    background-color: #6752D9;
+    color: #fff;
+    font-weight: 500;
+    border: 2px solid #6752D9;
+    padding: 5px 10px;
+    margin-left: 15px;
+    float: right;
+}
+
+.btn-products-delete {
+    background-color: red;
+    color: #fff;
+    font-weight: 200;
+    border: 2px solid red;;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 0;
+    border-radius: 50px;
+    width: 70px;
+}
+
+.add-product-button {
+    float: right;
+    background-color: #6752D9;
+    border: 0;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 50px;
+    width: 150px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.button-logout {
+    float: right;
+    background-color: #6752D9;
+    border: 0;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 50px;
+    width: 150px;
+    font-weight: 600;
+}
+
+
+
+.single-product-card {
+    width: 100%;
+    text-align: center;
+    padding: 80px;
+}
+
+.single-product-card h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.single-product-card .small-font {
+    color: #6752D9;
+}
+
+.button-go-back {
+    margin-top: 20px;
+    background-color: #6752D9;
+    border: 0;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 50px;
+    width: 150px;
+    font-weight: 600;
+}
